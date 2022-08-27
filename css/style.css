@@ -152,8 +152,8 @@ nav {
     border: 2px solid #e05634;
 }
 .productCard__icon img{
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
 .productCard__icon img:hover{
@@ -479,5 +479,13 @@ footer nav a:hover{
     }
     .advantages__image__text p{
         font-size: 14px;
+    }
+    }
+
+@media screen and (max-width: 400px) {
+    .advantages__image__blackCircle{
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
     }
     }
